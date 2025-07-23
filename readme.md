@@ -1,4 +1,4 @@
-# 🤖 TalentScout AI Hiring Assistant
+# TalentScout AI Hiring Assistant
 
 This is a smart AI chatbot that helps the "TalentScout" recruitment agency with initial interviews. This project shows how to use a Large Language Model (LLM) to build a solid app that's easy and smart to use.
 
@@ -10,7 +10,7 @@ This is a smart AI chatbot that helps the "TalentScout" recruitment agency with 
 * **Asks Follow-up Questions:** The chatbot checks if a candidate's answer is clear. If it's too short or vague, it asks a smart follow-up question to get more details, just like a real interviewer.
 * **Easy to Use:** You can end the conversation at any time by typing keywords like `exit`, `quit`, or `bye`.
 
-## 🛠️ Technical Stack
+##  Technical Stack
 
 * **Language:** Python 3.9+
 * **Framework:** Streamlit (to build the web interface)
@@ -24,8 +24,7 @@ Follow these steps to get the project running on your computer.
 ### 1. Clone the Repository
 
 ```bash
-git clone [https://github.com/your-username/your-repository-name.git](https://github.com/your-username/your-repository-name.git)
-cd your-repository-name
+git clone https://github.com/patelsourabh/Hiring-Assistant
 ```
 
 ### 2. Create a Virtual Environment (Recommended)
@@ -39,7 +38,7 @@ source venv/bin/activate
 
 # For Windows
 python -m venv venv
-.\venv\Scripts\activate
+.\venv\Scripts\activate.ps1
 ```
 
 ### 3. Install Dependencies
@@ -64,7 +63,7 @@ The project needs an API key to talk to the AI model via OpenRouter.
     ```
 The app will now be able to use your key securely.
 
-## ▶️ Usage
+## ▶Usage
 
 Once everything is set up, run this command in your terminal:
 
@@ -74,7 +73,7 @@ streamlit run app.py
 
 A new tab should open in your web browser with the chatbot ready to go.
 
-## 🧠 How It Works: Decisions & Prompts
+##  How It Works: Decisions & Prompts
 
 ### Architecture
 
